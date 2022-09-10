@@ -1,0 +1,66 @@
+.addtodocontainer{
+    border: 1px solid rgb(42, 27, 27);
+    display: flex;
+    flex-direction: row;
+}
+.entry_container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(41, 26, 26);
+    width: 70%;
+}
+
+.count_number{
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.count_all{
+    border: 1px solid rgb(213, 189, 29);
+    height: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(151, 202, 151);
+}
+.count_personal{
+    border: 1px solid rgb(220, 189, 18);
+    height: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(223, 176, 23);
+}
+.count_official{
+    border: 1px solid rgb(196, 199, 20);
+    height: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(215, 8, 8);
+}
+.count_other{
+    border: 1px solid rgb(182, 105, 22);
+    height: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(225, 167, 6);
+}
+.logout_button{
+    height: 50px;
+    background-color: rgb(209, 162, 7);
+    font-size: 20px;
+    color: white;
+}
