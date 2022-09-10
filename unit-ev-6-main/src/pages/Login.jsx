@@ -15,6 +15,7 @@ const Login = () => {
  
   const handleclick =(event) => {
     event.preventDefault();
+    window.location.href = "/"
     setdata()
   }
   

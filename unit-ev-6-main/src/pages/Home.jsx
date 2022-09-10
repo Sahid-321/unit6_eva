@@ -109,17 +109,19 @@ const gotoedit=(id)=>{
 }
 
   return (
-    (!token) ? <Navigate to='/login' /> : <div className='container_home'>
-      <div className='profile_div'>
+    (token) ? <Navigate to='/login' /> : <div  className='container_home'>
+      <div style={{background:"teal"}} className='profile_div'>
       
 
 
 
 {products.map((elem)=>{return(<>
+<div  style={{background:"teal"}}>
 <h1>{elem.title}</h1>
 <img src={elem.image}/>
 <p>{elem.category}</p>
 <p>{elem.price}</p>
+</div>
 </>)})}
 
 
